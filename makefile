@@ -9,3 +9,7 @@ all: ESS-variables-rounds.html
 
 view: 
 	open ESS-variables-rounds.html
+
+update: 
+	cp ESS-variables-rounds.html docs/index.html
+	open docs/index.html
